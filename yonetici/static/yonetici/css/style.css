@@ -1,0 +1,65 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px; /* Sidebar genişliğini ayarlayabilirsiniz */
+    background-color: #000; /* Sidebar arka plan rengi */
+    padding-top: 30px; /* İlk satırdan önce bir boşluk bırakmak için */
+    z-index: 900;
+    position: fixed;
+}
+
+/* Satırların stilini ayarla */
+.nav-item {
+    z-index: 1000;
+    border-bottom: 1px solid #fff; /* Satır çizgisi rengi ve stilini ayarlayabilirsiniz */
+}
+
+/* İlk satırın üstte bir boşluğu varsa bu boşluğu kapatmak için */
+.nav-link.active {
+    margin-top: 0 !important;
+}
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+body {
+    padding-top: 56px;
+}
+
+/* Ince divider */
+.divider {
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Sağ üst köşede altı çizili çıkış yap linki */
+
+.container-fluid{
+    margin-top: 60px;
+}
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logout-link {
+    position: fixed;
+    top: 10px; /* Sağ üst köşeye olan dikey mesafe */
+    right: 10px; /* Sağ üst köşeye olan yatay mesafe */
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(149, 143, 143); /* Arka plan rengi, istediğiniz rengi kullanabilirsiniz */
+    color: #fff; /* Yazı rengi, istediğiniz rengi kullanabilirsiniz */
+    border-radius: 5px; /* Kenar yarıçapı */
+}
+
+.logout-link:hover {
+    background-color: rgb(167, 162, 162); /* Mouse üzerine gelindiğinde arka plan rengini değiştirme */
+}
